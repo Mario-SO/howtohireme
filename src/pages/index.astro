@@ -9,11 +9,21 @@ import Hero from "../components/Hero.astro";
     <BentoLayout>
         <Hero />
         <div class="grid grid-cols-2 gap-4 text-center">
-            <Pill text={"Visit my portfolio"} link={"https://mariodev.xyz"} />
+            <Pill text={"Check portfolio"} link={"https://mariodev.xyz"} />
             <Pill text={"Send an email"} link={"mailto:hireme@mariodev.xyz"} />
-            <div class="col-span-2 justify-center">
-                <Pill text={"Hire me"} link={"https://google.com"} />
+            <div confetti-button class="col-span-2 justify-center">
+                <Pill text={"Hire me"} link={"#"} />
             </div>
         </div>
     </BentoLayout>
 </Layout>
+
+<script>
+    import confetti from "canvas-confetti";
+    const Pills = document.querySelectorAll("[confetti-button]");
+    console.log(Pills);
+
+    Pills.forEach((Pill) => {
+        Pill.addEventListener("click", () => confetti());
+    });
+</script>
