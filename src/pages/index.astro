@@ -24,6 +24,11 @@ import Hero from "../components/Hero.astro";
     console.log(Pills);
 
     Pills.forEach((Pill) => {
-        Pill.addEventListener("click", () => confetti());
+        Pill.addEventListener("click", () =>
+            confetti({
+                origin: { x: 0.5, y: 0.6 },
+                spread: 360,
+            }),
+        );
     });
 </script>
