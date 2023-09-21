@@ -9,10 +9,18 @@ import Hero from "../components/Hero.astro";
     <BentoLayout>
         <Hero />
         <div class="grid grid-cols-2 gap-4 text-center">
-            <Pill text={"Check portfolio"} link={"https://mariodev.xyz"} />
-            <Pill text={"Send an email"} link={"mailto:hireme@mariodev.xyz"} />
+            <Pill
+                text={"Check portfolio"}
+                link={"https://mariodev.xyz"}
+                emoji={"✨"}
+            />
+            <Pill
+                text={"Send an email"}
+                link={"mailto:hireme@mariodev.xyz"}
+                emoji={"✉️"}
+            />
             <div confetti-button class="col-span-2 justify-center">
-                <Pill text={"Hire me"} link={"#"} />
+                <Pill text={"Hire me"} link={"#"} emoji={"🎉"} />
             </div>
         </div>
     </BentoLayout>

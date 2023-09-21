@@ -1,11 +1,11 @@
 ---
-const { text, link } = Astro.props;
+const { text, link, emoji } = Astro.props;
 ---
 
 <a href={link} class="text-white text-md md:text-lg">
     <div class="border border-white p-5 uppercase cursor-pointer">
         <div class="flex items-center">
-            <div
+            <!-- <div
                 class="w-5 h-5 bg-black border border-white mr-2 flex items-center justify-center"
             >
                 <svg
@@ -20,8 +20,11 @@ const { text, link } = Astro.props;
                         stroke-width="2"
                         d="M9 5l7 7-7 7"></path>
                 </svg>
-            </div>
-            {text}
+            </div> -->
+
+            <div class="mr-3">{emoji}</div>
+
+            <div>{text}</div>
         </div>
     </div>
 </a>
