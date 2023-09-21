@@ -1,0 +1,24 @@
+---
+const { text, link } = Astro.props;
+---
+
+<div
+    class="animate-fade-in border border-white text-white p-4 space-x-2 uppercase"
+>
+    <div class="flex items-center space-x-2">
+        <div
+            class="checkmark w-5
+        h-5
+        rounded-md
+        bg-white
+        text-gray-700
+        flex
+        justify-center
+        items-center
+        mr-2
+        cursor-copy"
+        >
+        </div>
+        <a href={link} class="text-white">{text}</a>
+    </div>
+</div>
