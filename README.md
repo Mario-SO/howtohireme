@@ -1,54 +1,27 @@
-# Astro Starter Kit: Basics
+# Hire Me in 3 Easy Steps! 😎
 
-```sh
-npm create astro@latest -- --template basics
-```
+Welcome to my Hire Me repository, where I've made the hiring process as simple as sending an email! Because who needs complicated hiring procedures, right? 🤷‍♂️
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## Step 1: Visit My Portfolio 🌟
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+**You have to see it to believe it!** Dive into my dazzling portfolio to witness the incredible skills and talents that I bring to the table. From coding wizardry to design mastery, you'll be amazed at what I can do.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Step 2: Send an E-mail 📧
 
-## 🚀 Project Structure
+Now that you're awestruck by my portfolio (who wouldn't be?), it's time for the next step. Send me an email – it's that simple! Just open up your favorite email client, type your message, and hit send. You don't need a carrier pigeon or smoke signals; this is the 21st century, after all! 📨
 
-Inside of your Astro project, you'll see the following folders and files:
+**Recipient:** [hireme@mariodev.com](mailto:hireme@mariodev.xyz)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+**Subject:** Let's Make Magic Happen! ✨
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+**Message:** Hi there! I was absolutely blown away by your portfolio, and I want to hire you immediately! Would you accept a $1M/year offer? 🚀 I hope it is not too low for you 🥲
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Step 3: Hire Me 💼
 
-Any static assets, like images, can be placed in the `public/` directory.
+Congratulations, you've made it to the grand finale! Once you've sent that email, all that's left to do is sit back, relax, and wait for the magic to happen. Soon, I'll be joining your team and making incredible things together! 💼🌟
 
-## 🧞 Commands
+**Disclaimer:** We know it's hard to believe that hiring can be this easy. But gone are the days of tedious interviews and complicated forms. We're bringing the "hire me" game to a whole new level! 😄
 
-All commands are run from the root of the project, from a terminal:
+So, what are you waiting for? Let's get started on our journey together. I promise you won't regret it! 🚀
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+*P.S. If you forgot how to send an email, maybe it's time to reconsider that HR position! 😉*
