@@ -17,8 +17,10 @@ import Footer from "../components/Footer.astro";
     </head>
     <body>
         <slot />
+        <div class="invisible md:visible">
+            <Footer />
+        </div>
     </body>
-    <Footer />
 </html>
 
 <style is:global>
